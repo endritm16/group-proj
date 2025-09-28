@@ -182,7 +182,7 @@
 </head>
 <body>
 
-    <h2 style="text-align:center;">Sample Table</h2>
+    
     
     
    
