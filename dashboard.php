@@ -59,7 +59,7 @@
     <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
       <div class="position-sticky pt-3">
         <ul class="nav flex-column">
-           <?php if ($_SESSION['is_admin'] == 'true') { ?>
+           Removed admin check since is_admin column doesn't exist, showing all navigation to all users 
             <li class="nav-item">
               <a class="nav-link" href="home.php">
                 <span data-feather="file"></span>
@@ -80,27 +80,11 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="bookings.php">
-              <span ></span>
+              <span></span>
               Bookings
             </a>
           </li>
         </ul>
-        <?php }else {?>
-          <li class="nav-item">
-              <a class="nav-link" href="home.php">
-               
-                Home
-              </a>
-            </li>
-          <li class="nav-item">
-          <a class="nav-link" href="bookings.php">
-            <span ></span>
-            Bookings
-          </a>
-        </li>
-        </ul>
-      <?php
-      } ?>
 
         
       </div>
@@ -112,15 +96,14 @@
         
       </div>
 
-    <?php if ($_SESSION['is_admin'] == 'true') { ?>
-
+       Removed admin check, showing users table to all logged-in users 
       <h2>Users</h2>
       <div class="table-responsive">
         <table class="table table-striped table-sm">
           <thead>
             <tr>
               <th scope="col">Id</th>
-              <th scope="col">Emri</th>
+               Removed Emri column header since it doesn't exist in 4-column table 
               <th scope="col">Username</th>
               <th scope="col">Email</th>
               <th scope="col">Update</th>
@@ -132,12 +115,12 @@
 
                <tr>
                 <td><?php echo $user_data['id']; ?></td>
-                <td><?php echo $user_data['emri']; ?></td>
+                 Removed emri data column since it doesn't exist in 4-column table 
                 <td><?php echo $user_data['username']; ?></td>
                 <td><?php echo $user_data['email']; ?></td>
-                <!-- If we want to update a user we need to link into editUsers.php -->
+                 If we want to update a user we need to link into editUsers.php 
                 <td><a href="editUsers.php?id=<?= $user_data['id'];?>">Update</a></td>
-                  <!-- If we want to delete a user we need to link into deleteUsers.php -->
+                   If we want to delete a user we need to link into deleteUsers.php 
                 <td><a href="deleteUsers.php?id=<?= $user_data['id'];?>">Delete</a></td>
               </tr>
               
@@ -147,9 +130,6 @@
           </tbody>
         </table>
       </div>
-     <?php  } else {
-      
-    } ?>
     </main>
   </div>
 </div>

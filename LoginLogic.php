@@ -26,8 +26,7 @@
 		}
 		else{
 
-			//If false, we will create a query to select id,emri,username,email,password,is_admin from users table based on each username
-			$sql = "SELECT id, emri, username, email, password, is_admin FROM users WHERE username=:username";
+			$sql = "SELECT id, username, email, password FROM users WHERE username=:username";
 
 			//We use prepared statement as a feature used to execute the same sql statement repeatedly with high efficiency
 			$selectUser = $conn->prepare($sql);
@@ -57,12 +56,9 @@
 
 					//If condition is not true, we will check if password in database matches the password that we wrote 
 				if (password_verify($password, $data['password'])) {
-					//If this condition is true, we will store $data values to $_SESSION variables
 					$_SESSION['id'] = $data['id'];
 					$_SESSION['username'] = $data['username'];
 					$_SESSION['email'] = $data['email'];
-					$_SESSION['emri'] = $data['emri'];
-					$_SESSION['is_admin'] = $data['is_admin'];
 
 					//And head to dashboard.php
 					header('Location: dashboard.php');
