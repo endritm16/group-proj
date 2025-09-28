@@ -202,7 +202,7 @@
         <div class="footer-column">
             <h3>Company</h3>
             <ul>
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="about.php">About Us</a></li>
                 <li><a href="#">Careers</a></li>
                 <li><a href="#">Press</a></li>
                 <li><a href="#">Contact</a></li>
@@ -213,7 +213,7 @@
         <div class="footer-column">
             <h3>Quick Links</h3>
             <ul>
-                <li><a href="shop.html">Shop</a></li>
+                <li><a href="shop.php">Shop</a></li>
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Terms of Service</a></li>
                 <li><a href="#">Refund Policy</a></li>
@@ -224,7 +224,7 @@
         <div class="footer-column">
             <h3>Newsletter</h3>
             <p>Subscribe to our newsletter for the latest updates and offers.</p>
-            <form action="contact.html">
+            <form action="contact.php">
                 <input type="email" placeholder="Enter your email" required>
                 <button type="submit">Subscribe</button>
             </form>
@@ -243,7 +243,7 @@
     </div>
 
     <div class="footer-bottom">
-        <p>&copy; Endrit Mehmeti,Nuart Ramadani,Amir Kuleta,Erjon Jashari. All Rights Reserved.</p>
+        <p>&copy; Endrit Mehmeti. All Rights Reserved.</p>
     </div>
 </footer>
 

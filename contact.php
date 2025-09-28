@@ -54,7 +54,7 @@
         <div class="footer-column">
             <h3>Company</h3>
             <ul>
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="about.php">About Us</a></li>
                 <li><a href="#">Careers</a></li>
                 <li><a href="#">Press</a></li>
                 <li><a href="#">Contact</a></li>
@@ -65,7 +65,7 @@
         <div class="footer-column">
             <h3>Quick Links</h3>
             <ul>
-                <li><a href="shop.html">Shop</a></li>
+                <li><a href="shop.php">Shop</a></li>
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Terms of Service</a></li>
                 <li><a href="#">Refund Policy</a></li>

@@ -34,7 +34,7 @@
             <h1>Just Do It</h1>
             <p>Empower your game with Nike's latest collection.</p>
 
-            <a href="shop.html" class="btn">Shop Now</a>
+            <a href="shop.php" class="btn">Shop Now</a>
         </div>
     </section> <!-- About Section -->
     <section id="about" class="about">
@@ -59,7 +59,7 @@
           <div class="footer-column">
               <h3>Company</h3>
               <ul>
-                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="about.php">About Us</a></li>
                   <li><a href="#">Careers</a></li>
                   <li><a href="#">Press</a></li>
                   <li><a href="#">Contact</a></li>
@@ -70,7 +70,7 @@
           <div class="footer-column">
               <h3>Quick Links</h3>
               <ul>
-                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="shop.php">Shop</a></li>
                   <li><a href="#">Privacy Policy</a></li>
                   <li><a href="#">Terms of Service</a></li>
                   <li><a href="#">Refund Policy</a></li>
@@ -100,7 +100,7 @@
       </div>
 
       <div class="footer-bottom">
-          <p>&copy; Endrit Mehmeti,Nuart Ramadani,Amir Kuleta,Erjon Jashari. All Rights Reserved.</p>
+          <p>&copy; Endrit Mehmeti. All Rights Reserved.</p>
       </div>
   </footer>
 
