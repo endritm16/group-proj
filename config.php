@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$dbname = 'your_database';  // Change this to your database name
+$dbname = 'your_database';  
 $username = 'root';
-$password = '';             // Usually empty for XAMPP/WAMP
+$password = '';            
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);

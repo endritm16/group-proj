@@ -54,13 +54,13 @@
                     <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2d2b14e8-f95e-41e2-95a9-cca6f5ecb9a6/custom-mercurial-superfly-9-elite-shoes-by-you.png" alt="Product 2">
                     <h3>Këpucë Futbolli</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
-                    <a href="KpucaFM.html" class="btn">Shop Now</a>
+                    <a href="KpucaFM.php" class="btn">Shop Now</a>
                 </div>
                 <div class="product-card">
                     <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/849566c0-f04e-4742-96f1-8f6ca677f246/AIR+JORDAN+1+RETRO+HIGH+OG.png" alt="Product 3">
                     <h3>Këpucë</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    <a href="KpucaM.html" class="btn">Shop Now</a>
+                    <a href="KpucaM.php" class="btn">Shop Now</a>
                 </div>
             </div>
             <h2>Produkte per femra</h2>
@@ -77,13 +77,13 @@
                     <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2ff5f7f0-05f2-4c0a-9cbf-a466b834762b/PHANTOM+GX+II+ELITE+FG.png" alt="Product 2">
                     <h3>Këpucë per Sport</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                    <a href="KpucaFF.html" class="btn">Shop Now</a>
+                    <a href="KpucaFF.php" class="btn">Shop Now</a>
                 </div>
                 <div class="product-card">
                     <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/69c35f99-e396-4e98-b2a2-0d9515bdd1f1/WMNS+AIR+JORDAN+1+MM+HIGH.png" alt="Product 3">
                     <h3>Këpucë</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    <a href="KpucaF.html" class="btn">Shop Now</a>
+                    <a href="KpucaF.php" class="btn">Shop Now</a>
                 </div>
             </div>
         </div>
@@ -184,39 +184,8 @@
 
     <h2 style="text-align:center;">Sample Table</h2>
     
-    <table>
-        <tr>
-            <th>AENE</th>
-            <th>Made By:</th>
-            <th>Age</th>
-            <th>City</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>AMIR Kuleta
-            </td>
-            <td>16</td>
-            <td>Prishtina</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Endrit Mehmeti</td>
-            <td>16</td>
-            <td>Prishtina</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Erjon Jashri</td>
-            <td>16</td>
-            <td>Prishtina</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Noart Ramadani</td>
-            <td>16</td>
-            <td>Prishtina</td>
-        </tr>
-    </table>
+    
+   
     <script src="home.js"></script>
 </body>
 </html>

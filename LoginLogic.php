@@ -61,7 +61,8 @@
 					$_SESSION['email'] = $data['email'];
 
 					//And head to dashboard.php
-					header('Location: dashboard.php');
+					header('Location: home.php');
+					exit();
 				}
 				else{
 					//If the second condition is not true, then we will echo this message:
